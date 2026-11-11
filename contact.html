@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact | Olusola Emmanuel</title><link rel="stylesheet" href="css/style.css"><script src="js/main.js" defer></script></head>
+<body>
+<header class="site-header"><a class="brand" href="index.html">OLUSOLA<span>.</span></a><button class="menu-toggle" aria-label="Toggle navigation" aria-expanded="false">☰</button><nav class="nav-links" aria-label="Main navigation"><a href="index.html">Home</a><a href="about.html">About Me</a><a href="projects.html">Projects</a><a href="planner.html">Academic Planner</a><a class="active" href="contact.html">Contact</a></nav></header>
+<main class="container page-main">
+  <section class="page-intro"><p class="eyebrow">SAY HELLO</p><h1>Get in <span>Touch</span></h1><p class="lead">Use the form below to send a message or ask about my learning projects.</p></section>
+  <div class="contact-layout">
+    <aside class="panel contact-aside"><h2>Contact details</h2><p>Thank you for visiting my student portfolio. I welcome academic discussions, constructive feedback and opportunities to learn.</p><div class="contact-detail"><span>Email</span><strong>Replace with your email address</strong></div><div class="contact-detail"><span>Phone</span><strong>Replace with your phone number</strong></div><div class="contact-detail"><span>Institution</span><strong>MIVA Open University</strong></div></aside>
+    <section class="panel"><h2>Send a message</h2><form id="contact-form" novalidate>
+      <label for="name">Full name</label><input id="name" name="name" type="text" placeholder="Your full name" required>
+      <label for="email">Email address</label><input id="email" name="email" type="email" placeholder="name@example.com" required>
+      <label for="phone">Phone number</label><input id="phone" name="phone" type="tel" inputmode="numeric" placeholder="Digits only" required>
+      <label for="message">Message</label><textarea id="message" name="message" rows="5" placeholder="Write your message..." required></textarea>
+      <button class="btn" type="submit">Validate message</button><p id="form-feedback" class="form-feedback" role="status"></p>
+      <p class="form-hint">Demonstration form: it validates your entries in the browser but does not send or store messages on a server.</p>
+    </form></section>
+  </div>
+</main>
+<footer class="site-footer"><div class="container footer-inner"><span>© <span class="year"></span> Olusola Emmanuel Temitope</span><span>Student Portfolio • COS 106</span></div></footer>
+</body></html>
