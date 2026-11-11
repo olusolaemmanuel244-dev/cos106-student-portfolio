@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Academic Planner | Olusola Emmanuel</title><link rel="stylesheet" href="css/style.css"><script src="js/main.js" defer></script></head>
+<body>
+<header class="site-header"><a class="brand" href="index.html">OLUSOLA<span>.</span></a><button class="menu-toggle" aria-label="Toggle navigation" aria-expanded="false">☰</button><nav class="nav-links" aria-label="Main navigation"><a href="index.html">Home</a><a href="about.html">About Me</a><a href="projects.html">Projects</a><a class="active" href="planner.html">Academic Planner</a><a href="contact.html">Contact</a></nav></header>
+<main class="container page-main">
+  <section class="page-intro"><p class="eyebrow">STAY ORGANISED</p><h1>Academic <span>Planner</span></h1><p class="lead">Add your study tasks, track your progress and keep your academic activities organised.</p></section>
+  <section class="planner panel">
+    <form id="task-form" class="task-form"><label for="task-input">New academic task</label><div class="task-entry"><input id="task-input" type="text" placeholder="e.g. Revise HTML forms" maxlength="120" required><button class="btn" type="submit">Add task +</button></div><p class="form-hint">Tasks are saved in this browser using local storage.</p></form>
+    <div class="planner-summary"><span id="task-count">0 tasks</span><span id="completed-count">0 completed</span></div>
+    <ul id="task-list" class="task-list" aria-live="polite"></ul>
+    <p id="empty-state" class="empty-state">No tasks yet. Add your first academic task above.</p>
+    <button id="clear-completed" class="btn btn-outline btn-small" type="button">Clear completed tasks</button>
+  </section>
+  <section class="panel planner-tips"><h2>Study planning tips</h2><ul class="clean-list"><li>Break large assignments into smaller tasks.</li><li>Set realistic deadlines in your personal calendar.</li><li>Review your task list at the beginning of each study session.</li></ul></section>
+</main>
+<footer class="site-footer"><div class="container footer-inner"><span>© <span class="year"></span> Olusola Emmanuel Temitope</span><span>Student Portfolio • COS 106</span></div></footer>
+</body></html>
